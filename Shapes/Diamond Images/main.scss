@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.diamond {
+    height: 15em;
+    width: 15em;
+    margin: 2em;
+}
+
+.diamond1 {
+    // transform solution
+    transform: rotate(45deg);
+    overflow: hidden;
+    margin: 6em;
+}
+
+.diamond1 > img {
+    max-width: 100%;
+    transform: rotate(-45deg) scale(1.42);
+}
+
+.diamond2 > img{
+    //clip-path solution ::MUCH BETTER!::
+    max-height: 22em;
+    clip-path: polygon(50% 0,
+                       100% 50%,
+                       50% 100%,
+                       0 50%);
+    -webkit-clip-path: polygon(50% 0,
+                               100% 50%,
+                               50% 100%,
+                               0 50%);
+    transition: .3s;
+}
+
+img:hover {
+    clip-path: polygon(0 0,
+                       100% 0,
+                       100% 100%,
+                       0 100%);
+    -webkit-clip-path: polygon(0 0,
+                               100% 0,
+                               100% 100%,
+                               0 100%);
+}

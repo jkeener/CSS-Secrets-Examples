@@ -1,0 +1,42 @@
+/* line 1, H:/Tuts/CSS Secrets/Shapes/Parallelograms/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 7, H:/Tuts/CSS Secrets/Shapes/Parallelograms/main.scss */
+.box {
+  position: relative;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 0;
+  margin: .5em;
+  background: transparent;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font: bold 200%/1 sans-serif; }
+
+/* line 19, H:/Tuts/CSS Secrets/Shapes/Parallelograms/main.scss */
+.box1 {
+  background: #58a;
+  transform: skewX(45deg); }
+
+/* line 25, H:/Tuts/CSS Secrets/Shapes/Parallelograms/main.scss */
+.box1 > div {
+  transform: skewX(-45deg); }
+
+/* line 29, H:/Tuts/CSS Secrets/Shapes/Parallelograms/main.scss */
+.box2::before {
+  content: '';
+  /* To generate the box */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: #58a;
+  transform: skew(45deg); }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+/* line 1, H:/Tuts/CSS Secrets/Backgrounds and Borders/Inner rounding/main.scss */
+body {
+  display: flex;
+  justify-content: center; }
+
+/* line 5, H:/Tuts/CSS Secrets/Backgrounds and Borders/Inner rounding/main.scss */
+.box {
+  background: tan;
+  border-radius: .8em;
+  padding: 1em;
+  box-shadow: 0 0 0 0.6em #655;
+  outline: .7em solid #655;
+  margin-top: 1em;
+  max-width: 10em;
+  font: 100%/1.5 sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

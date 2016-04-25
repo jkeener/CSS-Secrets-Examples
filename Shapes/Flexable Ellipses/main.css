@@ -1,0 +1,44 @@
+/* line 1, H:/Tuts/CSS Secrets/Shapes/Flexable Ellipses/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 7, H:/Tuts/CSS Secrets/Shapes/Flexable Ellipses/main.scss */
+.ellipse {
+  background: #fb3;
+  height: 15em;
+  width: 15em;
+  margin: 1em; }
+
+/* line 14, H:/Tuts/CSS Secrets/Shapes/Flexable Ellipses/main.scss */
+.ellipse1 {
+  border-radius: 50%; }
+
+/* line 18, H:/Tuts/CSS Secrets/Shapes/Flexable Ellipses/main.scss */
+.ellipse2 {
+  height: 16em;
+  width: 10em;
+  border-radius: 50%; }
+
+/* line 24, H:/Tuts/CSS Secrets/Shapes/Flexable Ellipses/main.scss */
+.ellipse3 {
+  border-radius: 100% 0 0 100% / 50%; }
+
+/* line 28, H:/Tuts/CSS Secrets/Shapes/Flexable Ellipses/main.scss */
+.ellipse4 {
+  border-radius: 50% / 100% 100% 0 0; }
+
+/* line 32, H:/Tuts/CSS Secrets/Shapes/Flexable Ellipses/main.scss */
+.ellipse5 {
+  border-radius: 0 100% 100% 0 / 50%; }
+
+/* line 36, H:/Tuts/CSS Secrets/Shapes/Flexable Ellipses/main.scss */
+.ellipse6 {
+  border-radius: 50% / 0 0 100% 100%; }
+
+/* line 40, H:/Tuts/CSS Secrets/Shapes/Flexable Ellipses/main.scss */
+.ellipse7 {
+  border-radius: 100% 0 0 0; }
+
+/*# sourceMappingURL=main.css.map */

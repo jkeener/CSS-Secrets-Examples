@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ellipse {
+    background: #fb3;
+    height: 15em;
+    width: 15em;
+    margin: 1em;
+}
+
+.ellipse1 {
+    border-radius: 50%;
+}
+
+.ellipse2{
+    height: 16em;
+    width: 10em;
+    border-radius: 50%;
+}
+
+.ellipse3 {
+    border-radius: 100% 0 0 100% / 50%;
+}
+
+.ellipse4 {
+    border-radius: 50% / 100% 100% 0 0;
+}
+
+.ellipse5 {
+    border-radius: 0 100% 100% 0 / 50%;
+}
+
+.ellipse6 {
+    border-radius: 50% / 0 0 100% 100%;
+}
+
+.ellipse7 {
+    border-radius: 100% 0 0 0;
+}

@@ -1,0 +1,16 @@
+/* line 1, H:/Tuts/CSS Secrets/Backgrounds and Borders/Translucent Borders/main.scss */
+body {
+  background-color: orange;
+  display: flex;
+  justify-content: center; }
+
+/* line 6, H:/Tuts/CSS Secrets/Backgrounds and Borders/Translucent Borders/main.scss */
+.box {
+  height: 200px;
+  width: 50%;
+  margin-top: 2rem;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  background: white;
+  background-clip: padding-box; }
+
+/*# sourceMappingURL=main.css.map */

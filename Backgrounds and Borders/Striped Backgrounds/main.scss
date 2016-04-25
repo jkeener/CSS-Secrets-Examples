@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box {
+    margin: 1em;
+    height: 20em;
+    width: 20em;
+}
+
+.box1 {
+    // equal stripes
+    background: linear-gradient(#fb3 50%,
+                                #58a 50%);
+    background-size: 100% 30px;
+}
+.box2 {
+    // unequal stripes
+    background: linear-gradient(#fb3 30%,
+                                #58a 0);
+    background-size: 100% 30px;
+}
+    // 3 colors
+.box3 {
+    background: linear-gradient(#fb3 33.3%,
+                                #58a 0,
+                                #58a 66%,
+                                yellowgreen 0);
+    background-size: 100% 45px;
+}
+
+.box4 {
+    // vertical stripes
+    background: linear-gradient(to right,
+                                #fb3 50%,
+                                #58a 50%);
+    background-size: 30px 100%;
+}
+
+.box5 {
+    // diagonal stripes
+    background: linear-gradient(45deg,
+                                #fb3 25%,
+                                #58a 0,
+                                #58a 50%,
+                                #fb3 0,
+                                #fb3 75%,
+                                #58a 0);
+    background-size: 42px 42px;
+}
+
+.box6 {
+    // better diagonal stripes
+    background: repeating-linear-gradient(60deg, // can change angle
+                                          #fb3,
+                                          #fb3 15px,
+                                          #58a 0,
+                                          #58a 30px);
+}
+
+.box7 {
+    // flexable subtile stripes
+    background: #58a; // darkest color as background
+    background-image: repeating-linear-gradient(30deg,
+                                                hsla(0,0%,100%,.1),
+                                                hsla(0,0%,100%,.1) 15px,
+                                                transparent 0,  
+                                                transparent 30px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+/* line 1, H:/Tuts/CSS Secrets/Shapes/Diamond Images/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 7, H:/Tuts/CSS Secrets/Shapes/Diamond Images/main.scss */
+.diamond {
+  height: 15em;
+  width: 15em;
+  margin: 2em; }
+
+/* line 13, H:/Tuts/CSS Secrets/Shapes/Diamond Images/main.scss */
+.diamond1 {
+  transform: rotate(45deg);
+  overflow: hidden;
+  margin: 6em; }
+
+/* line 20, H:/Tuts/CSS Secrets/Shapes/Diamond Images/main.scss */
+.diamond1 > img {
+  max-width: 100%;
+  transform: rotate(-45deg) scale(1.42); }
+
+/* line 25, H:/Tuts/CSS Secrets/Shapes/Diamond Images/main.scss */
+.diamond2 > img {
+  max-height: 22em;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  transition: .3s; }
+
+/* line 39, H:/Tuts/CSS Secrets/Shapes/Diamond Images/main.scss */
+img:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+
+/*# sourceMappingURL=main.css.map */

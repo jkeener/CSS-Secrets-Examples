@@ -1,0 +1,11 @@
+/* line 1, H:/Tuts/CSS Secrets/Backgrounds and Borders/Flexible Background Positioning/main.scss */
+.box {
+  background: url(http://csssecrets.io/images/code-pirate.svg) no-repeat #58a;
+  background-position: calc(100% - 20px) calc(100% - 10px);
+  max-width: 10em;
+  min-height: 5em;
+  padding: 10px;
+  color: white;
+  font: 100%/1 sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+/* line 1, H:/Tuts/CSS Secrets/Backgrounds and Borders/Multiple Borders/main.scss */
+body {
+  display: flex;
+  justify-content: center; }
+
+/* line 5, H:/Tuts/CSS Secrets/Backgrounds and Borders/Multiple Borders/main.scss */
+.box {
+  height: 5em;
+  width: 10%;
+  margin: 2em; }
+
+/* line 10, H:/Tuts/CSS Secrets/Backgrounds and Borders/Multiple Borders/main.scss */
+#box-1 {
+  background-color: yellowgreen;
+  box-shadow: 0 0 0 10px #655, 0 0 0 15px deeppink, 0 2px 5px 15px rgba(0, 0, 0, 0.6); }
+
+/* line 16, H:/Tuts/CSS Secrets/Backgrounds and Borders/Multiple Borders/main.scss */
+#box-2 {
+  background-color: saddlebrown;
+  border-radius: 10%;
+  outline: 2px dashed white;
+  outline-offset: -10px; }
+
+/*# sourceMappingURL=main.css.map */

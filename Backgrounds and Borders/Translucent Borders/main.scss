@@ -1,0 +1,13 @@
+body {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    height: 200px;
+    width: 50%;
+    margin-top: 2rem;
+    border: 10px solid hsla(0,0%,100%,.5);
+    background: white;
+    background-clip: padding-box;
+}

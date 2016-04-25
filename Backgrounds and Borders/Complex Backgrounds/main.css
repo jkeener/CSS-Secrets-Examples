@@ -1,0 +1,51 @@
+/* line 15, H:/Tuts/CSS Secrets/Backgrounds and Borders/Complex Backgrounds/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 21, H:/Tuts/CSS Secrets/Backgrounds and Borders/Complex Backgrounds/main.scss */
+.box {
+  height: 15em;
+  width: 15em;
+  background-color: gray;
+  margin: 2em; }
+
+/* line 28, H:/Tuts/CSS Secrets/Backgrounds and Borders/Complex Backgrounds/main.scss */
+.box1 {
+  background: white;
+  background-image: linear-gradient(90deg, rgba(200, 0, 0, 0.5) 50%, transparent 0), linear-gradient(rgba(200, 0, 0, 0.5) 50%, transparent 0);
+  background-size: 30px 30px; }
+
+/* line 35, H:/Tuts/CSS Secrets/Backgrounds and Borders/Complex Backgrounds/main.scss */
+.box2 {
+  background: #58a;
+  background-image: linear-gradient(white 1px, transparent 0), linear-gradient(90deg, white 1px, transparent 0);
+  background-size: 30px 30px; }
+
+/* line 42, H:/Tuts/CSS Secrets/Backgrounds and Borders/Complex Backgrounds/main.scss */
+.box3 {
+  background: #58a;
+  background-image: linear-gradient(white 2px, transparent 0), linear-gradient(90deg, white 2px, transparent 0), linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 0), linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 0);
+  background-size: 75px 75px, 75px 75px, 15px 15px, 15px 15px; }
+
+/* line 49, H:/Tuts/CSS Secrets/Backgrounds and Borders/Complex Backgrounds/main.scss */
+.box4 {
+  background: #655;
+  background-image: radial-gradient(tan 30%, transparent 0), radial-gradient(tan 30%, transparent 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px; }
+
+/* line 54, H:/Tuts/CSS Secrets/Backgrounds and Borders/Complex Backgrounds/main.scss */
+.box5 {
+  background: #58a;
+  background-image: linear-gradient(45deg, tan 25%, transparent 0, transparent 75%, tan 0), linear-gradient(45deg, tan 25%, transparent 0, transparent 75%, tan 0);
+  background-position: 0 0, 15px 15px;
+  background-size: 30px 30px; }
+
+/* line 59, H:/Tuts/CSS Secrets/Backgrounds and Borders/Complex Backgrounds/main.scss */
+.box6 {
+  background: repeating-linear-gradient(50deg, #F7A37B, #F7A37B 1em, #FFDEA8 1em, #FFDEA8 2em, #D0E4B0 2em, #D0E4B0 3em, #7CC5D0 3em, #7CC5D0 4em, #00A2E1 4em, #00A2E1 5em, #0085C8 5em, #0085C8 6em), repeating-linear-gradient(-50deg, #F7A37B, #F7A37B 1em, #FFDEA8 1em, #FFDEA8 2em, #D0E4B0 2em, #D0E4B0 3em, #7CC5D0 3em, #7CC5D0 4em, #00A2E1 4em, #00A2E1 5em, #0085C8 5em, #0085C8 6em);
+  background-blend-mode: multiply; }
+
+/*# sourceMappingURL=main.css.map */

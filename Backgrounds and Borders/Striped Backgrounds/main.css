@@ -1,0 +1,47 @@
+/* line 1, H:/Tuts/CSS Secrets/Backgrounds and Borders/Striped Backgrounds/main.scss */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 6, H:/Tuts/CSS Secrets/Backgrounds and Borders/Striped Backgrounds/main.scss */
+.box {
+  margin: 1em;
+  height: 20em;
+  width: 20em; }
+
+/* line 12, H:/Tuts/CSS Secrets/Backgrounds and Borders/Striped Backgrounds/main.scss */
+.box1 {
+  background: linear-gradient(#fb3 50%, #58a 50%);
+  background-size: 100% 30px; }
+
+/* line 18, H:/Tuts/CSS Secrets/Backgrounds and Borders/Striped Backgrounds/main.scss */
+.box2 {
+  background: linear-gradient(#fb3 30%, #58a 0);
+  background-size: 100% 30px; }
+
+/* line 25, H:/Tuts/CSS Secrets/Backgrounds and Borders/Striped Backgrounds/main.scss */
+.box3 {
+  background: linear-gradient(#fb3 33.3%, #58a 0, #58a 66%, yellowgreen 0);
+  background-size: 100% 45px; }
+
+/* line 33, H:/Tuts/CSS Secrets/Backgrounds and Borders/Striped Backgrounds/main.scss */
+.box4 {
+  background: linear-gradient(to right, #fb3 50%, #58a 50%);
+  background-size: 30px 100%; }
+
+/* line 41, H:/Tuts/CSS Secrets/Backgrounds and Borders/Striped Backgrounds/main.scss */
+.box5 {
+  background: linear-gradient(45deg, #fb3 25%, #58a 0, #58a 50%, #fb3 0, #fb3 75%, #58a 0);
+  background-size: 42px 42px; }
+
+/* line 53, H:/Tuts/CSS Secrets/Backgrounds and Borders/Striped Backgrounds/main.scss */
+.box6 {
+  background: repeating-linear-gradient(60deg, #fb3, #fb3 15px, #58a 0, #58a 30px); }
+
+/* line 62, H:/Tuts/CSS Secrets/Backgrounds and Borders/Striped Backgrounds/main.scss */
+.box7 {
+  background: #58a;
+  background-image: repeating-linear-gradient(30deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 15px, transparent 0, transparent 30px); }
+
+/*# sourceMappingURL=main.css.map */

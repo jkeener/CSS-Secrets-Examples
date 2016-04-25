@@ -1,0 +1,31 @@
+/* line 1, H:/Tuts/CSS Secrets/Backgrounds and Borders/(Pseudo)random Backgrounds/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 7, H:/Tuts/CSS Secrets/Backgrounds and Borders/(Pseudo)random Backgrounds/main.scss */
+.box {
+  height: 15em;
+  width: 15em;
+  background: gray;
+  margin: 2em; }
+
+/* line 14, H:/Tuts/CSS Secrets/Backgrounds and Borders/(Pseudo)random Backgrounds/main.scss */
+.box1 {
+  background: linear-gradient(90deg, #fb3 15%, #655 0, #655 40%, #ab4 0, #ab4 65%, #f0e2db 0);
+  background-size: 80px 100%; }
+
+/* line 26, H:/Tuts/CSS Secrets/Backgrounds and Borders/(Pseudo)random Backgrounds/main.scss */
+.box2 {
+  background: #f0e2db;
+  background-image: linear-gradient(90deg, #fb3 10px, transparent 0), linear-gradient(90deg, #ab4 20px, transparent 0), linear-gradient(90deg, #655 20px, transparent 0);
+  background-size: 80px 100%, 60px 100%, 40px 100%; }
+
+/* line 41, H:/Tuts/CSS Secrets/Backgrounds and Borders/(Pseudo)random Backgrounds/main.scss */
+.box3 {
+  background: #f0e2db;
+  background-image: linear-gradient(90deg, #fb3 11px, transparent 0), linear-gradient(90deg, #ab4 23px, transparent 0), linear-gradient(90deg, #655 41px, transparent 0);
+  background-size: 41px 100%, 61px 100%, 83px 100%; }
+
+/*# sourceMappingURL=main.css.map */
