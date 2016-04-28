@@ -1,0 +1,26 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Visual Effects/One-sided Shadows/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 7, H:/Tuts/CSS Secrets Examples/Visual Effects/One-sided Shadows/main.scss */
+.box {
+  background: #fb3;
+  height: 15em;
+  width: 15em;
+  margin: 2em; }
+
+/* line 14, H:/Tuts/CSS Secrets Examples/Visual Effects/One-sided Shadows/main.scss */
+.box1 {
+  box-shadow: 0 5px 4px -4px black; }
+
+/* line 19, H:/Tuts/CSS Secrets Examples/Visual Effects/One-sided Shadows/main.scss */
+.box2 {
+  box-shadow: 3px 3px 6px -3px black; }
+
+/* line 24, H:/Tuts/CSS Secrets Examples/Visual Effects/One-sided Shadows/main.scss */
+.box3 {
+  box-shadow: 5px 0 5px -5px black, -5px 0 5px -5px black; }
+
+/*# sourceMappingURL=main.css.map */

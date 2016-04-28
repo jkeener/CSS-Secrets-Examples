@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: #fb3;
+    height: 15em;
+    width: 15em;
+    margin: 2em;
+}
+
+.box1 {
+    // shadow on one side
+    box-shadow: 0 5px 4px -4px black;
+}
+
+.box2 {
+    // shadow on 2 adjacent sides
+    box-shadow: 3px 3px 6px -3px black;
+}
+
+.box3 {
+    // shadows on opposite sides
+    box-shadow: 5px 0 5px -5px black,
+               -5px 0 5px -5px black;
+}

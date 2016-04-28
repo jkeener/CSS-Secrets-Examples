@@ -1,0 +1,68 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Shapes/Simple Pie Charts/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 7, H:/Tuts/CSS Secrets Examples/Shapes/Simple Pie Charts/main.scss */
+.pie {
+  margin: 2em;
+  height: 15em;
+  width: 15em;
+  background: yellowgreen;
+  border-radius: 100%;
+  background-image: linear-gradient(to right, transparent 50%, #655 0); }
+
+/* line 22, H:/Tuts/CSS Secrets Examples/Shapes/Simple Pie Charts/main.scss */
+.pie1::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 0 100% 100% 0 / 50%;
+  transform-origin: left;
+  animation: spin 3s linear infinite, bg 6s step-end infinite; }
+
+/* line 39, H:/Tuts/CSS Secrets Examples/Shapes/Simple Pie Charts/main.scss */
+.pies::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 0 100% 100% 0 / 50%;
+  transform-origin: left;
+  animation: spin 50s linear infinite, bg 100s step-end infinite;
+  animation-play-state: paused;
+  animation-delay: inherit; }
+
+/* line 53, H:/Tuts/CSS Secrets Examples/Shapes/Simple Pie Charts/main.scss */
+svg {
+  width: 100px;
+  height: 100px;
+  transform: rotate(-90deg);
+  background: yellowgreen;
+  border-radius: 50%; }
+
+/* line 60, H:/Tuts/CSS Secrets Examples/Shapes/Simple Pie Charts/main.scss */
+circle {
+  fill: yellowgreen;
+  stroke: #655;
+  stroke-width: 32;
+  stroke-dasharray: 0 100;
+  animation: fillup 5s linear infinite; }
+
+@keyframes spin {
+  to {
+    transform: rotate(0.5turn); } }
+
+@keyframes bg {
+  50% {
+    background: #655; } }
+
+@keyframes fillup {
+  to {
+    stroke-dasharray: 100 100; } }
+
+/*# sourceMappingURL=main.css.map */
