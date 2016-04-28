@@ -1,0 +1,100 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+body {
+  padding: 1em;
+  font: 130%/2 Frutiger LT Std, sans-serif; }
+
+/* line 6, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+.wrapper {
+  margin: 2em; }
+
+/* line 9, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+.tab {
+  position: relative;
+  display: inline-block;
+  padding: 0.5em 1em 0.35em;
+  color: white;
+  font: 200%/1 sans-serif; }
+
+/* line 17, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+.tab::before {
+  content: '';
+  /* To generate the box */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: #58a;
+  transform: scaleY(1.3) perspective(0.5em) rotateX(5deg);
+  transform-origin: bottom; }
+
+/* line 28, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+nav {
+  position: relative;
+  z-index: 1;
+  padding-left: 1em; }
+
+/* line 34, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+nav > a {
+  position: relative;
+  display: inline-block;
+  padding: 0.3em 1em 0;
+  color: inherit;
+  text-decoration: none;
+  margin: 0 -0.3em; }
+
+/* line 44, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+nav > a::before,
+.content {
+  border: 0.1em solid rgba(0, 0, 0, 0.4); }
+
+/* line 48, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+nav a::before {
+  content: '';
+  /* To generate the box */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-bottom: none;
+  border-radius: 0.5em 0.5em 0 0;
+  background: #ccc linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+  box-shadow: 0 0.15em white inset;
+  transform: scale(1.1, 1.3) perspective(0.5em) rotateX(5deg);
+  transform-origin: bottom; }
+
+/* line 65, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+nav a.selected {
+  z-index: 2; }
+
+/* line 69, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+nav a.selected::before {
+  background-color: #eee;
+  margin-bottom: -.08em; }
+
+/* line 74, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+.content {
+  display: block;
+  margin-bottom: 1em;
+  background: #eee;
+  padding: 1em;
+  border-radius: .15em; }
+
+/* line 82, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+nav.left > a::before {
+  transform: scale(1.2, 1.3) perspective(0.5em) rotateX(5deg);
+  transform-origin: bottom left; }
+
+/* line 87, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+nav.right {
+  padding-left: 2em; }
+
+/* line 91, H:/Tuts/CSS Secrets Examples/Shapes/Trapazoid Tabs/main.scss */
+nav.right > a::before {
+  transform: scale(1.2, 1.3) perspective(0.5em) rotateX(5deg);
+  transform-origin: bottom right; }
+
+/*# sourceMappingURL=main.css.map */
