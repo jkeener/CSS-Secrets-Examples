@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.circle {
+    height: 25em;
+    width: 25em;
+    border-radius: 100%;
+    margin: 1em;
+}
+
+.circle1 {
+    // useing a filter
+    -webkit-filter: sepia() saturate(4) hue-rotate(295deg);
+    filter: sepia() saturate(4) hue-rotate(295deg);
+    transition: 1s -webkit-filter;
+}
+
+.circle1:hover, .circle1:focus {
+    -webkit-filter:none;
+    filter: none;
+}
+
+.circle2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(335,100%,50%);
+    background-blend-mode: luminosity;
+    transition: 1s background-color;
+}
+
+.circle2:hover {
+    background-color: transparent;
+}

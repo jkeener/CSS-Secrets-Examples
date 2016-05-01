@@ -1,0 +1,38 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Visual Effects/Color Tinting/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 7, H:/Tuts/CSS Secrets Examples/Visual Effects/Color Tinting/main.scss */
+.circle {
+  height: 25em;
+  width: 25em;
+  border-radius: 100%;
+  margin: 1em; }
+
+/* line 14, H:/Tuts/CSS Secrets Examples/Visual Effects/Color Tinting/main.scss */
+.circle1 {
+  -webkit-filter: sepia() saturate(4) hue-rotate(295deg);
+  filter: sepia() saturate(4) hue-rotate(295deg);
+  transition: 1s -webkit-filter; }
+
+/* line 21, H:/Tuts/CSS Secrets Examples/Visual Effects/Color Tinting/main.scss */
+.circle1:hover, .circle1:focus {
+  -webkit-filter: none;
+  filter: none; }
+
+/* line 26, H:/Tuts/CSS Secrets Examples/Visual Effects/Color Tinting/main.scss */
+.circle2 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ff006a;
+  background-blend-mode: luminosity;
+  transition: 1s background-color; }
+
+/* line 35, H:/Tuts/CSS Secrets Examples/Visual Effects/Color Tinting/main.scss */
+.circle2:hover {
+  background-color: transparent; }
+
+/*# sourceMappingURL=main.css.map */
