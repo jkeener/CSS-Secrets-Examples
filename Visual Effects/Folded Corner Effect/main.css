@@ -1,0 +1,63 @@
+/* line 32, H:/Tuts/CSS Secrets Examples/Visual Effects/Folded Corner Effect/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 38, H:/Tuts/CSS Secrets Examples/Visual Effects/Folded Corner Effect/main.scss */
+.box {
+  height: 12em;
+  width: 15em;
+  background: #58a;
+  margin: 1em; }
+
+/* line 45, H:/Tuts/CSS Secrets Examples/Visual Effects/Folded Corner Effect/main.scss */
+.box1 {
+  background: linear-gradient(to left bottom, transparent 50%, rgba(0, 0, 0, 0.4) 0) no-repeat 100% 0/2em 2em, linear-gradient(-135deg, transparent 1.4em, #58a 0); }
+
+/* line 57, H:/Tuts/CSS Secrets Examples/Visual Effects/Folded Corner Effect/main.scss */
+.box2 {
+  background: linear-gradient(to left bottom, transparent 50%, rgba(0, 0, 0, 0.4) 0) no-repeat 100% 0/3em 1.73em, linear-gradient(-150deg, transparent 1.5em, #58a 0); }
+
+/* line 69, H:/Tuts/CSS Secrets Examples/Visual Effects/Folded Corner Effect/main.scss */
+.box3 {
+  position: relative;
+  background: linear-gradient(-150deg, transparent 1.5em, #58a 0);
+  border-radius: .5em; }
+
+/* line 79, H:/Tuts/CSS Secrets Examples/Visual Effects/Folded Corner Effect/main.scss */
+.box3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(to left bottom, transparent 50%, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.4)) 100% 0 no-repeat;
+  width: 1.73em;
+  height: 3em;
+  transform: translateY(-1.3em) rotate(-30deg);
+  transform-origin: bottom right;
+  border-bottom-left-radius: inherit;
+  box-shadow: -0.2em 0.2em 0.3em -0.1em rgba(0, 0, 0, 0.15); }
+
+/* line 97, H:/Tuts/CSS Secrets Examples/Visual Effects/Folded Corner Effect/main.scss */
+.box4 {
+  position: relative;
+  background: #58a;
+  /* Fallback */
+  background: linear-gradient(-140deg, transparent 2em, #58a 0);
+  border-radius: .5em; }
+  /* line 13, H:/Tuts/CSS Secrets Examples/Visual Effects/Folded Corner Effect/main.scss */
+  .box4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to left bottom, transparent 50%, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.4)) 100% 0 no-repeat;
+    width: 2em/cos(40deg);
+    height: 2em/sin(40deg);
+    transform: translateY(2em/cos(40deg)-2em/sin(40deg)) rotate(-10deg);
+    transform-origin: bottom right;
+    border-bottom-left-radius: inherit;
+    box-shadow: -0.2em 0.2em 0.3em -0.1em rgba(0, 0, 0, 0.2); }
+
+/*# sourceMappingURL=main.css.map */
