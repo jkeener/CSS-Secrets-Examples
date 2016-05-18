@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    font: 150%/1.6 Baskerville, Palatino, serif;
+}
+
+dl {
+    border: 1px solid black;
+    padding: .5em
+}
+
+dt, dd {
+    display: inline;
+}
+
+dd {
+    margin: 0;
+    font-weight: bold;
+}
+
+dd + dt::before {
+    content: "\A";
+    white-space: pre;
+}
+
+dd + dd::before {
+    content: ', ';
+    font-weight: normal;
+    margin-left: -.25em;
+}

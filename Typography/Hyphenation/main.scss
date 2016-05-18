@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    width: 8.75em;
+    font: 180%/1.4 Baskerville, serif;
+    text-align: justify;
+    hyphens: auto; // not supported in chrome
+}

@@ -1,0 +1,13 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Typography/Hyphenation/main.scss */
+body {
+  display: flex;
+  justify-content: center; }
+
+/* line 6, H:/Tuts/CSS Secrets Examples/Typography/Hyphenation/main.scss */
+div {
+  width: 8.75em;
+  font: 180%/1.4 Baskerville, serif;
+  text-align: justify;
+  hyphens: auto; }
+
+/*# sourceMappingURL=main.css.map */
