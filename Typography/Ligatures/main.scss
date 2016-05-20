@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font: 200%/1.6 "Adobe Caslon Pro", Baskerville, serif;
+}
+
+div {
+    font-variant-ligatures: common-ligatures 
+                            discretionary-ligatures
+                            historical-ligatures;
+}

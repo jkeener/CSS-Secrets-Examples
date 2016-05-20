@@ -1,0 +1,10 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Typography/Zebra-striped Text Lines/main.scss */
+pre {
+  padding: .5em;
+  line-height: 1.5;
+  background: beige;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 50%, transparent 0);
+  background-size: auto 3em;
+  background-origin: content-box; }
+
+/*# sourceMappingURL=main.css.map */
