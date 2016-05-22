@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Ampersand;
+  src: local("Baskerville-Italic"), local("GoudyOldStyleT-Italic"), local("Garamond-Italic"), local("Palatino-Italic");
+  unicode-range: U26; }
+
+/* line 9, H:/Tuts/CSS Secrets Examples/Typography/Fancy Ampersands/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 15, H:/Tuts/CSS Secrets Examples/Typography/Fancy Ampersands/main.scss */
+h1 {
+  font-family: Ampersand, Helvetica, sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
