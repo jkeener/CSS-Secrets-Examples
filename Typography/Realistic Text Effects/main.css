@@ -1,0 +1,75 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font: 300%/1.5 Baskerville, serif; }
+
+/* line 8, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 5em; }
+
+/* line 15, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+.box {
+  margin: .1em;
+  padding: .5em; }
+
+/* line 20, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+.box1 {
+  color: #434c56;
+  background: #8c99a6;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8); }
+
+/* line 27, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+.box2 {
+  color: #8c99a6;
+  background: #434c56;
+  text-shadow: 0 -1px 1px black; }
+
+/* line 34, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+.box3 {
+  background: deeppink;
+  color: white;
+  text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black; }
+
+/* line 45, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+.box4 {
+  font: bold 100% Rockwell, serif;
+  background: #203;
+  color: #ffc;
+  transition: 1s; }
+
+/* line 53, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+.box4:hover {
+  text-shadow: 0 0 0.1em, 0 0 0.3em; }
+
+/* line 57, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+.box5 {
+  font: bold 100% Rockwell, serif;
+  background: #203;
+  color: white;
+  transition: 1s; }
+
+/* line 65, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+.box5:hover {
+  color: transparent;
+  text-shadow: 0 0 0.1em white, 0 0 0.3em white; }
+
+/* line 70, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+.box6 {
+  font: bold 100% Rockwell, serif;
+  background: #58a;
+  color: white;
+  text-shadow: 0 1px #d9d9d9, 0 2px #d9d9d9, 0 3px #d9d9d9, 0 4px #d9d9d9, 0 5px #d9d9d9, 0 5px 10px black; }
+
+/* line 83, H:/Tuts/CSS Secrets Examples/Typography/Realistic Text Effects/main.scss */
+.box7 {
+  font: bold 100% Rockwell, serif;
+  color: white;
+  background: #ac3939;
+  text-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black; }
+
+/*# sourceMappingURL=main.css.map */
