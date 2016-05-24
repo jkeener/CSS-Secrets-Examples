@@ -1,0 +1,28 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Typography/Circular Text/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font: bold 120% Helvetica, sans-serif; }
+
+/* line 8, H:/Tuts/CSS Secrets Examples/Typography/Circular Text/main.scss */
+.circular {
+  width: 20em;
+  height: 20em;
+  margin: 3em auto 0; }
+
+/* line 14, H:/Tuts/CSS Secrets Examples/Typography/Circular Text/main.scss */
+.circular svg {
+  display: block;
+  overflow: visible;
+  transition: 10s linear transform; }
+
+/* line 20, H:/Tuts/CSS Secrets Examples/Typography/Circular Text/main.scss */
+.circular svg:hover {
+  transform: rotate(-2turn); }
+
+/* line 24, H:/Tuts/CSS Secrets Examples/Typography/Circular Text/main.scss */
+.circular path {
+  fill: none; }
+
+/*# sourceMappingURL=main.css.map */

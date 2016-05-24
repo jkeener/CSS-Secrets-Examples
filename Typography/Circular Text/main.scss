@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font: bold 120% Helvetica, sans-serif;
+}
+
+.circular {
+    width: 20em;
+    height: 20em;
+    margin: 3em auto 0;
+}
+
+.circular svg {
+    display: block;
+    overflow: visible;
+    transition: 10s linear transform;
+}
+
+.circular svg:hover {
+    transform: rotate(-2turn)
+}
+
+.circular path {
+    fill: none;
+}
