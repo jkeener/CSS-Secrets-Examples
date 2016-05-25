@@ -1,0 +1,23 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/User Experience/Picking The Right Cursor/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 7, H:/Tuts/CSS Secrets Examples/User Experience/Picking The Right Cursor/main.scss */
+:disabled, [disabled], [aria-disabled="true"] {
+  width: 10em;
+  height: 5em;
+  cursor: not-allowed;
+  margin: 1em; }
+
+/* line 14, H:/Tuts/CSS Secrets Examples/User Experience/Picking The Right Cursor/main.scss */
+div {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  padding: 1em;
+  background: #f83;
+  cursor: none; }
+
+/*# sourceMappingURL=main.css.map */
