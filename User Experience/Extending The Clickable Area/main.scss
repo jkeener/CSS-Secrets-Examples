@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: .3em .5em;
+    border-radius: 50%;
+    color: white;
+    font: bold 150%/1 sans-serif;
+    cursor: pointer;
+    background: #58a;
+    margin: .5em;
+}
+
+.button1 {
+    //using border
+    border: 10px solid transparent;
+    background-clip: padding-box;
+}
+
+.button2 {
+    //using border and faking a border with box-shadow
+    border: 10px solid transparent;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.3) inset;
+    background-clip: padding-box;
+}
+
+.button3 {
+    //using a psudo element
+    position: relative;
+    border: 10px solid transparent;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.3) inset;
+    background-clip: padding-box;
+}
+
+.button3:before {
+    content: '';
+    position: absolute;
+    top: -10px; right: -10px;
+    bottom: -10px; left: -10px;
+}

@@ -1,0 +1,69 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/User Experience/Custom Checkboxes/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font: 150%/1.6 sans-serif; }
+
+/* line 8, H:/Tuts/CSS Secrets Examples/User Experience/Custom Checkboxes/main.scss */
+label {
+  margin: 2em; }
+
+/* line 12, H:/Tuts/CSS Secrets Examples/User Experience/Custom Checkboxes/main.scss */
+#awesomeCheck {
+  position: absolute;
+  clip: rect(0, 0, 0, 0); }
+
+/* line 17, H:/Tuts/CSS Secrets Examples/User Experience/Custom Checkboxes/main.scss */
+#awesomeCheck + label::before {
+  content: '\a0';
+  display: inline-block;
+  vertical-align: .2em;
+  width: .8em;
+  height: .8em;
+  margin-right: .2em;
+  border-radius: .2em;
+  background: silver;
+  text-indent: .15em;
+  line-height: .5; }
+
+/* line 30, H:/Tuts/CSS Secrets Examples/User Experience/Custom Checkboxes/main.scss */
+#awesomeCheck:checked + label::before {
+  content: '\2713';
+  background: yellowgreen; }
+
+/* line 35, H:/Tuts/CSS Secrets Examples/User Experience/Custom Checkboxes/main.scss */
+#awesomeCheck:focus + label::before {
+  box-shadow: 0 0 0.1em 0.1em #58a; }
+
+/* line 39, H:/Tuts/CSS Secrets Examples/User Experience/Custom Checkboxes/main.scss */
+#awesomeCheck:disabled + label::before {
+  background: gray;
+  box-shadow: none;
+  color: #555; }
+
+/* line 45, H:/Tuts/CSS Secrets Examples/User Experience/Custom Checkboxes/main.scss */
+#awesomeButton {
+  position: absolute;
+  clip: rect(0, 0, 0, 0); }
+
+/* line 50, H:/Tuts/CSS Secrets Examples/User Experience/Custom Checkboxes/main.scss */
+#awesomeButton + label {
+  display: inline-block;
+  padding: 0.3em 0.5em;
+  background: #ccc;
+  background-image: linear-gradient(#ddd, #bbb);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: .3em;
+  box-shadow: 0 1px 1px white;
+  text-align: center;
+  text-shadow: 0 1px 1px white; }
+
+/* line 63, H:/Tuts/CSS Secrets Examples/User Experience/Custom Checkboxes/main.scss */
+#awesomeButton:checked + label,
+#awesomeButton:active + label {
+  box-shadow: 0.05em 0.1em 0.2em rgba(0, 0, 0, 0.6) inset;
+  border-color: rgba(0, 0, 0, 0.3);
+  background: #bbb; }
+
+/*# sourceMappingURL=main.css.map */
