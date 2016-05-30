@@ -1,0 +1,32 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/User Experience/De-emphasize By Blurring/main.scss */
+body {
+  font: 150%/1.6 Baskerville, Palatino, serif; }
+
+/* line 5, H:/Tuts/CSS Secrets Examples/User Experience/De-emphasize By Blurring/main.scss */
+main {
+  transition: .6s;
+  background: white; }
+
+/* line 10, H:/Tuts/CSS Secrets Examples/User Experience/De-emphasize By Blurring/main.scss */
+main.de-emphasized {
+  -webkit-filter: blur(3px);
+  filter: blur(3px); }
+
+/* line 15, H:/Tuts/CSS Secrets Examples/User Experience/De-emphasize By Blurring/main.scss */
+dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 10em;
+  padding: 2em;
+  margin: -5em;
+  border: 1px solid silver;
+  border-radius: .5em;
+  box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.5), 0 0 0 100vmax rgba(0, 0, 0, 0.2); }
+
+/* line 28, H:/Tuts/CSS Secrets Examples/User Experience/De-emphasize By Blurring/main.scss */
+dialog:not([open]) {
+  display: none; }
+
+/*# sourceMappingURL=main.css.map */
