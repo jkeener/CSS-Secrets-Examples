@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    font: 100 150%/1.6 'Frutiger LT Std', sans-serif;
+}
+
+ul {
+    overflow: auto;
+    width: 10em;
+    height: 8em;
+    padding: .3em .5em;
+    border: 1px solid silver;
+    
+    //the actual stuff
+    background: linear-gradient(white 30%,
+                                hsla(0,0%,100%,0)),
+                radial-gradient(at top,
+                                rgba(0,0,0,.2),
+                                transparent 70%),
+                linear-gradient(to top,
+                                white 30%,
+                                hsla(0,0%,100%,0)),
+                 radial-gradient(at bottom,
+                                rgba(0,0,0,.2),
+                                transparent 70%);
+    background-repeat: no-repeat;
+    background-size: 100% 15px;
+    background-attachment: local, scroll, local, scroll;
+}

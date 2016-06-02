@@ -1,0 +1,19 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/User Experience/Scrolling Hints/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  font: 100 150%/1.6 'Frutiger LT Std', sans-serif; }
+
+/* line 7, H:/Tuts/CSS Secrets Examples/User Experience/Scrolling Hints/main.scss */
+ul {
+  overflow: auto;
+  width: 10em;
+  height: 8em;
+  padding: 0.3em 0.5em;
+  border: 1px solid silver;
+  background: linear-gradient(white 30%, rgba(255, 255, 255, 0)), radial-gradient(at top, rgba(0, 0, 0, 0.2), transparent 70%), linear-gradient(to top, white 30%, rgba(255, 255, 255, 0)), radial-gradient(at bottom, rgba(0, 0, 0, 0.2), transparent 70%);
+  background-repeat: no-repeat;
+  background-size: 100% 15px;
+  background-attachment: local, scroll, local, scroll; }
+
+/*# sourceMappingURL=main.css.map */
