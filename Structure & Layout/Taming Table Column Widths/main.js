@@ -1,0 +1,1 @@
+document.querySelector('section + section div').innerHTML = document.querySelector('section:first-of-type div').innerHTML;

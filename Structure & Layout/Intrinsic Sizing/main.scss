@@ -1,0 +1,15 @@
+figure {
+    padding: 10px;
+    border: 1px solid silver;
+    margin: auto;
+    width: min-content;
+    //fallback
+    max-width: 300px;
+    max-width: min-content;
+}
+
+//more fallback
+
+figure > img {
+    max-width: inherit;
+}

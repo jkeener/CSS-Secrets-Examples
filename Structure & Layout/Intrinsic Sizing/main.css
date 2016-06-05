@@ -1,0 +1,14 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Structure & Layout/Intrinsic Sizing/main.scss */
+figure {
+  padding: 10px;
+  border: 1px solid silver;
+  margin: auto;
+  width: min-content;
+  max-width: 300px;
+  max-width: min-content; }
+
+/* line 13, H:/Tuts/CSS Secrets Examples/Structure & Layout/Intrinsic Sizing/main.scss */
+figure > img {
+  max-width: inherit; }
+
+/*# sourceMappingURL=main.css.map */

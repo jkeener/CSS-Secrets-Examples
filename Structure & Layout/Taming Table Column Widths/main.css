@@ -1,0 +1,32 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Structure & Layout/Taming Table Column Widths/main.scss */
+body {
+  background: #ddd; }
+
+/* line 5, H:/Tuts/CSS Secrets Examples/Structure & Layout/Taming Table Column Widths/main.scss */
+section {
+  width: 500px;
+  margin: 2em;
+  background: white; }
+
+/* line 11, H:/Tuts/CSS Secrets Examples/Structure & Layout/Taming Table Column Widths/main.scss */
+table {
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  width: 100%; }
+
+/* line 17, H:/Tuts/CSS Secrets Examples/Structure & Layout/Taming Table Column Widths/main.scss */
+section + section table {
+  table-layout: fixed; }
+
+/* line 21, H:/Tuts/CSS Secrets Examples/Structure & Layout/Taming Table Column Widths/main.scss */
+td {
+  border: 1px solid #aaa; }
+
+/* line 25, H:/Tuts/CSS Secrets Examples/Structure & Layout/Taming Table Column Widths/main.scss */
+td.preformatted {
+  white-space: pre;
+  font-family: Consolas, Monaco, monospace;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+/*# sourceMappingURL=main.css.map */
