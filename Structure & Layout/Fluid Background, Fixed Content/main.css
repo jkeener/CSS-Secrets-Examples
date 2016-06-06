@@ -1,0 +1,24 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Structure & Layout/Fluid Background, Fixed Content/main.scss */
+body {
+  margin: 0;
+  font: 100%/1.5 sans-serif; }
+
+/* line 6, H:/Tuts/CSS Secrets Examples/Structure & Layout/Fluid Background, Fixed Content/main.scss */
+header, section, footer {
+  padding: 1em calc(50% - 350px); }
+
+/* line 10, H:/Tuts/CSS Secrets Examples/Structure & Layout/Fluid Background, Fixed Content/main.scss */
+footer {
+  background: #333;
+  color: white; }
+
+/* line 15, H:/Tuts/CSS Secrets Examples/Structure & Layout/Fluid Background, Fixed Content/main.scss */
+header {
+  background: orange;
+  color: white; }
+
+/* line 20, H:/Tuts/CSS Secrets Examples/Structure & Layout/Fluid Background, Fixed Content/main.scss */
+section + section {
+  background: #eee; }
+
+/*# sourceMappingURL=main.css.map */
