@@ -1,0 +1,76 @@
+//I'm not doing seperate pages for all of these, so everything will be stacked on top of each other.
+
+body {
+    background: #fb3;
+    font: 100%/1.5 sans-serif;
+}
+
+main {
+    padding: 1em 1.5em;
+    box-sizing: border-box;
+    background: #655;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 .2em;
+    font-size: 150%;
+}
+
+p {
+    margin: 0;
+}
+
+//absolute positioning 1
+
+.main1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -3em;
+    margin-left: -9em;
+    width: 18em;
+}
+
+//absolute positioning 2 fixing with calc
+
+.main2 {
+    position: absolute;
+    top: calc(50% - 3em);
+    left: calc(50% - 9em);
+    width: 18em;
+    height: 6em;
+}
+
+//absolute positioning 3 best solution, using translate
+
+.main3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//viewport unit solution
+
+.main4 {
+    width: 18em;
+    padding: 1em 1.5em;
+    margin: 50vh auto 0;
+    transform: translateY(-50%);
+    
+}
+
+//flexbox commenting this one out because making the body display: flex; breaks the other examples. This is the best solution in my opinion. 
+
+
+//body {
+//    display: flex;
+//    min-height: 100vh;
+//    margin: 0;
+//}
+
+//.main5 {
+//    margin: auto;
+//}

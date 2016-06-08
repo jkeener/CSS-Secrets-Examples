@@ -1,0 +1,54 @@
+/* line 3, H:/Tuts/CSS Secrets Examples/Structure & Layout/Vertical Centering/main.scss */
+body {
+  background: #fb3;
+  font: 100%/1.5 sans-serif; }
+
+/* line 8, H:/Tuts/CSS Secrets Examples/Structure & Layout/Vertical Centering/main.scss */
+main {
+  padding: 1em 1.5em;
+  box-sizing: border-box;
+  background: #655;
+  color: white;
+  text-align: center; }
+
+/* line 16, H:/Tuts/CSS Secrets Examples/Structure & Layout/Vertical Centering/main.scss */
+h1 {
+  margin: 0 0 0.2em;
+  font-size: 150%; }
+
+/* line 21, H:/Tuts/CSS Secrets Examples/Structure & Layout/Vertical Centering/main.scss */
+p {
+  margin: 0; }
+
+/* line 27, H:/Tuts/CSS Secrets Examples/Structure & Layout/Vertical Centering/main.scss */
+.main1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -3em;
+  margin-left: -9em;
+  width: 18em; }
+
+/* line 38, H:/Tuts/CSS Secrets Examples/Structure & Layout/Vertical Centering/main.scss */
+.main2 {
+  position: absolute;
+  top: calc(50% - 3em);
+  left: calc(50% - 9em);
+  width: 18em;
+  height: 6em; }
+
+/* line 48, H:/Tuts/CSS Secrets Examples/Structure & Layout/Vertical Centering/main.scss */
+.main3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/* line 57, H:/Tuts/CSS Secrets Examples/Structure & Layout/Vertical Centering/main.scss */
+.main4 {
+  width: 18em;
+  padding: 1em 1.5em;
+  margin: 50vh auto 0;
+  transform: translateY(-50%); }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,40 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Structure & Layout/Sticky Footers/main.scss */
+body {
+  margin: 0;
+  font: 100%/1.5 Palatino Linotype, Palatino, serif; }
+
+/* line 6, H:/Tuts/CSS Secrets Examples/Structure & Layout/Sticky Footers/main.scss */
+h1 {
+  margin: .5em 0 0; }
+
+/* line 10, H:/Tuts/CSS Secrets Examples/Structure & Layout/Sticky Footers/main.scss */
+header {
+  text-align: center;
+  height: 3em; }
+
+/* line 15, H:/Tuts/CSS Secrets Examples/Structure & Layout/Sticky Footers/main.scss */
+main, footer {
+  display: block;
+  padding: 0.5em calc(50% - 400px); }
+
+/* line 20, H:/Tuts/CSS Secrets Examples/Structure & Layout/Sticky Footers/main.scss */
+footer {
+  background: linear-gradient(#222, #444);
+  color: white;
+  height: 6em; }
+
+/* line 26, H:/Tuts/CSS Secrets Examples/Structure & Layout/Sticky Footers/main.scss */
+#contents:checked ~ p {
+  display: none; }
+
+/* line 32, H:/Tuts/CSS Secrets Examples/Structure & Layout/Sticky Footers/main.scss */
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh; }
+
+/* line 38, H:/Tuts/CSS Secrets Examples/Structure & Layout/Sticky Footers/main.scss */
+main {
+  flex: 1; }
+
+/*# sourceMappingURL=main.css.map */

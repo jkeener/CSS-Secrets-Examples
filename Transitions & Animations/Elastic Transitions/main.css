@@ -1,0 +1,80 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Elastic Transitions/main.scss */
+body {
+  display: flex; }
+
+/* line 5, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Elastic Transitions/main.scss */
+body div {
+  margin: 1em; }
+
+/* line 9, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Elastic Transitions/main.scss */
+.ball-wrapper {
+  background: linear-gradient(skyblue, white 450px, yellowgreen 0);
+  min-height: 150vh;
+  width: 200px; }
+
+/* line 15, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Elastic Transitions/main.scss */
+.ball {
+  width: 0;
+  height: 0;
+  padding: 1.5em;
+  margin: auto;
+  border-radius: 50%;
+  background: red radial-gradient(at 30% 30%, #fdd, red);
+  animation: bounce 3s cubic-bezier(0.755, 0.05, 0.855, 0.06) forwards; }
+
+@keyframes bounce {
+  60%, 80%, to {
+    transform: translateY(400px);
+    animation-timing-function: ease; }
+  70% {
+    transform: translateY(300px); }
+  90% {
+    transform: translateY(360px); } }
+
+/* line 40, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Elastic Transitions/main.scss */
+.callout-wrapper {
+  font: 200%/1.6 Baskerville; }
+
+/* line 44, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Elastic Transitions/main.scss */
+input {
+  display: block;
+  padding: 0 0.4em;
+  font: inherit; }
+
+/* line 50, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Elastic Transitions/main.scss */
+.callout {
+  position: absolute;
+  max-width: 14em;
+  padding: 0.6em 0.8em;
+  border-radius: .3em;
+  margin: 0.3em 0 0 -0.2em;
+  background: #fed;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0.05em 0.2em 0.6em rgba(0, 0, 0, 0.2);
+  font-size: 75%; }
+
+/* line 62, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Elastic Transitions/main.scss */
+.callback:before {
+  content: "";
+  position: absolute;
+  top: -.4em;
+  left: 1em;
+  padding: .35em;
+  background: inherit;
+  border: inherit;
+  border-right: 0;
+  border-bottom: 0;
+  transform: rotate(45deg); }
+
+/* line 77, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Elastic Transitions/main.scss */
+input:not(:focus) + .callout {
+  transform: scale(0);
+  transition-timing-function: ease;
+  transition: .25s transform; }
+
+/* line 83, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Elastic Transitions/main.scss */
+.callout {
+  transform-origin: 1.4em -0.4em;
+  transition: 0.5s cubic-bezier(0.25, 0.1, 0.3, 1.5) transform; }
+
+/*# sourceMappingURL=main.css.map */

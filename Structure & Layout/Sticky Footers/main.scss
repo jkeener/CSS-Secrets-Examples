@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font: 100%/1.5 Palatino Linotype, Palatino, serif;
+}
+
+h1 {
+    margin: .5em 0 0;
+}
+
+header {
+    text-align: center;
+    height: 3em;
+}
+
+main, footer {
+    display: block;
+    padding: .5em calc(50% - 400px);
+}
+
+footer {
+    background: linear-gradient(#222, #444);
+    color: white;
+    height: 6em;
+}
+
+#contents:checked ~ p {
+    display: none;
+}
+
+//flexbox solution
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+//fixed height solution
+
+//main {
+//    min-height: calc(100vh - 2.5em - 7em);
+//    box-sizing: border-box;
+//}
