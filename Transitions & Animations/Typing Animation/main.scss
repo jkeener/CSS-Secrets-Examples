@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    font: 100%/1 monospace;
+}
+
+h1 {
+    width: 15ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .05em solid;
+    animation: typing 8s steps(15) infinite,
+               caret 1s steps(1) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}

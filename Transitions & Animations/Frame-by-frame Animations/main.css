@@ -1,0 +1,20 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Frame-by-frame Animations/main.scss */
+body {
+  display: flex;
+  justify-content: center; }
+
+/* line 6, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Frame-by-frame Animations/main.scss */
+.loader {
+  width: 100px;
+  height: 100px;
+  background: url(http://dabblet.com/img/loader.png);
+  text-indent: 200%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: loader 1s infinite steps(8); }
+
+@keyframes loader {
+  to {
+    background-position: -800px 0; } }
+
+/*# sourceMappingURL=main.css.map */
