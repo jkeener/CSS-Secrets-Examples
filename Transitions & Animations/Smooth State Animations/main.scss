@@ -1,0 +1,18 @@
+.panoramic {
+    width: 150px; 
+    height: 150px;
+    background: url('http://c3.staticflickr.com/3/2671/3904743709_74bc76d5ac_b.jpg');
+    background-size: auto 100%;
+    animation: panoramis 5s linear infinite alternate;
+        animation-play-state: paused;
+}
+
+.panoramic:hover, .panoramic:focus {
+    animation-play-state: running;
+}
+
+@keyframes panoramis {
+    to {
+        background-position: 100% 0;
+    } 
+}

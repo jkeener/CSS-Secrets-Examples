@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+// 2 element solution
+.avatar1 {
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar1 > img {
+    display: block;
+    width: inherit;
+}
+
+.path1 {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 50%;
+    background: #fb3;
+}
+
+.avatar1 {
+    animation: spin 3s infinite linear;
+    transform-origin: 50% 150px;
+}
+
+.avatar1 > img {
+    animation: inherit;
+    animation-direction: reverse;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+//1 emement solution
+
+.avatar2 {
+    display: block;
+    width: 50px;
+    margin: calc(50% - 25px) auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.path2 {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 50%;
+    background: #fb3;
+}
+
+.avatar2 {
+    animation: spin2 3s infinite linear;
+}
+
+@keyframes spin2 {
+    from {
+        transform: rotate(0turn) translateY(-150px) translateY(50%) rotate(1turn)
+    }
+    to {
+        transform: rotate(1turn) translateY(-150px) translateY(50%) rotate(0turn);
+    }
+}

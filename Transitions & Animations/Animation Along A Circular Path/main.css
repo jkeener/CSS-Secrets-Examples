@@ -1,0 +1,68 @@
+/* line 1, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Animation Along A Circular Path/main.scss */
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* line 8, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Animation Along A Circular Path/main.scss */
+.avatar1 {
+  width: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden; }
+
+/* line 15, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Animation Along A Circular Path/main.scss */
+.avatar1 > img {
+  display: block;
+  width: inherit; }
+
+/* line 20, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Animation Along A Circular Path/main.scss */
+.path1 {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 50%;
+  background: #fb3; }
+
+/* line 28, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Animation Along A Circular Path/main.scss */
+.avatar1 {
+  animation: spin 3s infinite linear;
+  transform-origin: 50% 150px; }
+
+/* line 33, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Animation Along A Circular Path/main.scss */
+.avatar1 > img {
+  animation: inherit;
+  animation-direction: reverse; }
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn); } }
+
+/* line 46, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Animation Along A Circular Path/main.scss */
+.avatar2 {
+  display: block;
+  width: 50px;
+  margin: calc(50% - 25px) auto 0;
+  border-radius: 50%;
+  overflow: hidden; }
+
+/* line 54, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Animation Along A Circular Path/main.scss */
+.path2 {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin: 100px auto;
+  border-radius: 50%;
+  background: #fb3; }
+
+/* line 63, H:/Tuts/CSS Secrets Examples/Transitions & Animations/Animation Along A Circular Path/main.scss */
+.avatar2 {
+  animation: spin2 3s infinite linear; }
+
+@keyframes spin2 {
+  from {
+    transform: rotate(0turn) translateY(-150px) translateY(50%) rotate(1turn); }
+  to {
+    transform: rotate(1turn) translateY(-150px) translateY(50%) rotate(0turn); } }
+
+/*# sourceMappingURL=main.css.map */
